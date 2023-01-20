@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form and inputs</title>
+</head>
+<body>
+<hr>
+<!--Ez a form üzenetet küld a megadott adatokra az actionben szereplő e-mail címre.-->
+<form action="mailto:valami@valami.com" method="post" enctype="text/plain">
+  <label>Your name:</label>
+  <input type="text" name="Name"><br>
+  <label>Your age</label>
+  <input type="range" name="Age"><br>
+  <label>Your favourite colour:</label>
+  <input type="color" name="Colour"><br>
+  <label>Your message:</label><br>
+  <textarea name="Message" rows="10" cols="30"></textarea><br>
+  <input type="submit">
+</form>
+<hr>
+</body>
+</html>
